@@ -1,5 +1,5 @@
-#Zabbix discovery scripts (LLD)
-##Discover block devices
+# Zabbix discovery scripts (LLD)
+## Discover block devices
 
 Pass either `disk`, `part`, `rom` or any other `TYPE` as an argument to this
 script and it'll use `lsblk --pairs` to filter based on `TYPE`
